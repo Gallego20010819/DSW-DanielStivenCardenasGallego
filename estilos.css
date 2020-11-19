@@ -63,6 +63,7 @@ p{
 
 .navegacion ul li{
     display: inline-block;
+    float: left;
 }
 
 .navegacion ul li a{
@@ -73,6 +74,16 @@ p{
 
 .navegacion ul li a:hover{
     background: #4a4a4a;
+}
+
+.navegacion li:hover >ul{
+    display: block
+}
+
+.navegacion li ul{
+        display:none ;
+        position: absolute;
+        min-width: 140px;
 }
 
 section{
@@ -114,4 +125,11 @@ h3{
 .Imagen_contenido1{
     width: 600px;
     height: 600px;
+}
+
+.imgauto{
+    width: 200px;
+    height: 200px;
+    float: right;
+    text-align: center;
 }
