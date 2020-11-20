@@ -20,7 +20,7 @@
 
 .contenido{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    width: 85%;
+    width: 80%;
     max-width: 850px;
     margin: 0 auto;
 }
@@ -95,11 +95,12 @@ footer{
 }
 
 aside{
+    width: 20%;
     display: inline-block;
 }
 
 .main{
-    width: 800px;
+    width: 70%;
     min-height: 400px;
     margin: 10px;
     display: inline-block;
@@ -123,8 +124,15 @@ h3{
 }
 
 .Imagen_contenido1{
-    width: 600px;
-    height: 600px;
+    width: 80%;
+    height: 60%;
+}
+
+.Imagen_contenido2{
+    width: 120%;
+    height: 40%;
+    float: left;
+    text-align: center;
 }
 
 .imgauto{
