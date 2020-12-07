@@ -1,35 +1,67 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Planeación</title>
+    <title>Estructura basica HTML5</title>
+    <link rel="stylesheet" href="estilos.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="Html5,Estructura basica html5, diseño paginas web">
+    <meta name="author" content="Daniel Gallego">
+    <meta name="description" content="La estructura basica de html5 es importante conocerse para iniciar a diseñar una pagina web"/>
+    <link rel="icon" type="image/png" sizes="16x16" href="Imagenes/favicon-16x16.png">
 </head>
 <body>
-    <nav>
-        <a href="index.html">pagina index</a>
-    </nav>
-    <section>
-        <h1>Estructura basica HTML5</h1>
-        <h2>OBJETIVOS DEL SITIO WEB</h2> 
-        <p>El objetivo de este sitio web es dar a entender la estructura basica de html5 dando a entender la funcionalidad de cada una de las etiquetas basicas para dar una buena estructuración de una pagina web </p>
-        <p>Definición de HTML5</h2>
-        <p>Para poder hablar sobre su estructura tenemos que dar a entender que es HTML5</p>
-        <p>Para la creación de paginas web se necesitan diferentes tipos de lenguajes siendo el html5 uno de ellos dando la estructura principal, siendo este la que organiza el diferente tipo de información que se agrega: Fotos,texto,videos entreo otros que se quieran dar a mostrar en la pagina</p>
-        <h2>Materiales</h2>
-        <p>Imagenes de la funcionalidad de cada una de las etiquetas con su respectiva información</p>
-        <h2>Estructura basica de HTML5</h2>
-        <p>La funcionalidad de cada una de las estructuras de html5 es dar una posisción especifica a la información que se tiene debido a la importancia que se le quiere dar a cada información</p>
-        <p>Header: Esta es la cabecera de nuestra pagina web, donde podriamos encontrar el nombre de la pagina, slogan y un logo referente al tema que se muestr en cada pagina</p>
-        <p>Nav: Este es la barra de navegación la cual nos puede mostrar el diferente tipo de información que hay en la pagina web, pudiendo haber un inicio de la pagina, una seccion de información, videos entre otros</p>
-        <p>Section: esta es la seccion para la información principal de el sitio web, dentro de esta etiqueta conteniendo otra etiqueta llamada article</p>
-        <p>Article: Esta etiqueta es la que da el contenido de la sección a la que se está ligada utilizando diferentes etiquetas como pueden ser "h1" "h2" siendo el numero mas bajo el de mas importancia o mas llamativo en el sitio web, siendo subtitulos o la información en si de la etiquet section</p>
-        <p>Aside: Este es la etiqueta que da posición a la información en un lateral, siendo esta información llamada banners o widgets</p>
-        <p>Footer: esta etiqueta tiene como función dar posición a la información en la parte final del cuerpo de la pagina web, el cual lleva como contenido</p>
-            <h2>Maquetación</h2>
-            <p>
-                <img src="imagenes/Maquetación.png" alt="Maquetación">
-            </p>
+    <header class="header">
+        <div class="contenido logo-nav-contenido">
+                <img src="Imagenes/LogoPage1.png" alt="LOGO" class="image1">
+            <nav class="navegacion">
+                <ul>
+                    <li><a href="inicio.html">inicio</a></li>
+                    <li>
+                        <a href="conceptos01.html">conceptos</a>
+                        <ul>
+                            <li><a href="conceptos02.html">conceptos02</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="recursos01.html">recursos</a></li>
+                    <li>
+                        <a href="autoevaluacion01.html">autoevaluacion</a>
+                        <ul>
+                            <li><a href="autoevaluacion02.html">autoevaluacion02</a></li>
+                            <li><a href="evaluacionsitio.html">evaluacionsitio</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="autor.html">autor</a></li>
+                </ul> 
+            </nav>
+        </div>
+    </header>
+    <section class="main">
+    <div class="contenido">
+        <h1 class="Titulo">Estructura basica de HTML5</h1>
+        <p style="text-align:center"><img src="Imagenes/IMAGEN HTML5.png" alt="HTML5"></p>
+        <h3 class="subtitulo">Objetivos generales del sitio web</h3>
+        <p>
+             objetivos de esta pagina son dar a conocer la estructura basica de HTML5 para las personas que quieren empezar a programar y desarrollar su propia pagina web, intentando definir cada uno de sus terminos de la forma mas adecuada para que sea entendible para cualquier tipo de persona. 
+        </p>
+        <p>
+             las tematicas que se encontraran en esta pagina web son la definición del termino HTML5, y su estructura basica, las cuales son: header, nav, section, article, aside y footer.  
+        </p>
+    </div>
     </section>
-    </body>
+    <aside class="conetenido">
+        <blockquote class="twitter-tweet"><p lang="es" dir="ltr"><a href="https://twitter.com/hashtag/UNADCelebra?src=hash&amp;ref_src=twsrc%5Etfw">#UNADCelebra</a> Hoy conmemoramos su destacada labor como líderes y creadores de oportunidades para las organizaciones.<br>Para nuestros docentes, personal administrativo y estudiantes.<br>Feliz día del administrador👏🏻 <a href="https://t.co/4XQhITZABV">pic.twitter.com/4XQhITZABV</a></p>&mdash; Universidad UNAD (@UniversidadUNAD) <a href="https://twitter.com/UniversidadUNAD/status/1324012137967177733?ref_src=twsrc%5Etfw">November 4, 2020</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+    </aside>
+    <footer>
+        <div class="contenido">
+            <p>
+                Daniel Gallego
+            </p>
+            <p>Tel:3132595619</p>
+            <p>correo: danielstivencardenasgallego@gmai.com</p>
+            <p>Tel UNAD(Cali): (2) 5141320</p>
+        </div>
+    </footer>
+</body>
 </html>
